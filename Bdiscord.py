@@ -161,11 +161,14 @@ async def sendToChannel(ctx, channel: discord.TextChannel, message):
 
   await new_channel.send(message)
   await ctx.send("Nuked the Channel sucessfully!")
+    
+# createText
 
 async def createText(ctx, channel_name):
   guild = ctx.guild
   await guild.create_text_channel(channel_name)
 
+# createVoice
 async def createVoice(ctx, channel_name):
   guild = ctx.guild
   await guild.create_voice_channel(channel_name)
