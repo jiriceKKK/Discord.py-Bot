@@ -22,4 +22,4 @@ async def createchannel(ctx, channel_name): # Creating The Function Named create
   await Bdiscord.send(ctx, f"Channel {channel_name} Was Created.") # Sending Message That Channel Was Been Created
 
 
-client.run("OTUyOTQxODM5MTY4NzA4Njc4.Yi9WPw.zy904zGwXHgw64dp8N2OffDSgFw")
+client.run("YOUR TOKEN")
