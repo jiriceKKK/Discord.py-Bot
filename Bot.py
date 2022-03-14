@@ -8,6 +8,8 @@ client = commands.Bot(command_prefix = "YOUR PREFIX HERE")
 async def on_ready():
   print("YOUR TEXT AFTER THE BOT IS READY")
   
+
+  
  
  
  client.run("YOUR TOKEN")
